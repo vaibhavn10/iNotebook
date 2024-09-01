@@ -1,0 +1,56 @@
+.btn{
+    background-color: rgb(123, 222, 84);
+}
+.btn:hover{
+    background-color: #78c454;
+}
+.scrollbarnone{
+    scrollbar-width: none;
+}
+
+.feature:hover{
+    background-color: #78c454
+}
+.feature:hover .logo{
+    background-color: rgb(144, 212, 116);
+}
+.feature:hover .title{
+    color: white;
+}
+.feature:hover .desc{
+    color: white;
+}
+
+.service .logo{
+    background-color: rgba(144, 212, 116, 0.2);
+}
+
+.profile:hover .profilemenu{
+    display: flex;
+    opacity: 1;
+}
+
+@keyframes slideIn {
+    from {
+      transform: translateY(-20px);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+@keyframes slideOut {
+    from{
+        transform: translateY(0);
+        opacity: 1;
+    }
+    to{
+        transform: translateY(20px);
+        opacity: 0;
+    }
+  }
+
+  .slide-in {
+    animation: slideIn 0.15s ease-in-out forwards;
+  }
